@@ -1,0 +1,36 @@
+@media (max-width: 1199px) {
+  .flexbox {
+    height: 1685px;
+  }
+}
+@media (max-width: 1023px) {
+	.flexbox {
+    height: 1685px;
+  }
+  .counter-number{
+    font-size: 3.5rem;
+  }
+  .wpb_wrapper h1{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #mainNav {
+    top: 0px;
+    background-color: rgba(108, 108, 108, 0.9);
+  }
+  header.masthead {
+    min-height: 100vh;
+    height: auto;
+  }
+  .social{
+    display: none !important;
+  }
+  .xs-mt-5{
+    margin-top: 30px;
+  }
+  .mob-view{
+    display: block
+  }
+}
